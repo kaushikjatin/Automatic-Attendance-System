@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
+
+.homepage-content 
+{
+    box-sizing: border-box;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Poppins';
+
+
+    .college-info
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1 
+        {
+            font-family:'Poppins';
+        }
+    }
+
+    .features-block 
+    {
+        margin-top: 5%;
+        width: 70%;
+        height: 300px;
+        font-size: 20px;
+        border: 2px solid white;
+        box-shadow: 0px 0px 20px white;
+        box-shadow: border-box;
+        padding: 20px 30px;
+        overflow: scroll;
+
+        .features-heading 
+        {
+            text-align: center;
+            background-color: white;
+            font-size: 3vw;
+            border-radius: 20px;
+            color: black;
+            z-index: 12;
+        }
+
+        .feature 
+        {
+            font-size: 2.5vw;
+        }
+    }
+
+
+    .Creators-info 
+    {
+        width: 100%;
+        margin-top: 5%;
+
+
+        h1 
+        {
+            text-align: center;
+        }
+
+        .creator-personal-info 
+        {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            @media only screen and (max-width: 660px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+        }
+    }
+}

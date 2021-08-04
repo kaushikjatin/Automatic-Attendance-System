@@ -1,0 +1,9 @@
+node_modules
+out.txt
+package.json
+package-lock.json
+public
+README.md
+src
+yarn-error.log
+yarn.lock

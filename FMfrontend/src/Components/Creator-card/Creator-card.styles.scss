@@ -1,0 +1,74 @@
+.box 
+{
+     position: relative;
+     width: 300px;
+     height: 400px;
+     margin: 40px;
+     background: #232323;
+     border-radius: 20px;
+     transform-style: preserve-3d;
+
+     .name 
+     {
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        transform: translate3d(0,0,100px);
+        opacity: 0;
+        z-index: 10;
+     }
+
+     .creator 
+     {
+        position: absolute;
+        max-height: 250px;
+        top: 60%;
+        left: 50%;
+        z-index: 11;
+        border-radius: 50%;
+        transform: translate3d(-50%,-50%,75px)
+     }
+
+     .phone-no
+     {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        color: #fff;
+        background: #333;
+        padding: 10px 25px;
+        border-radius: 30px;
+        text-decoration: none;
+        transform: translate3d(-50%,0,100px);
+        opacity: 0;
+        z-index: 12;
+        cursor: pointer;
+
+
+        &:hover
+        {
+         background: white;
+         color: #333;
+        }
+     }
+
+
+     &:hover
+     {
+        .name
+        {
+            transition: 0.5s;
+            top: 40px;
+            opacity: 1;
+        }
+        .phone-no
+        {
+            transition: 0.5s;
+            bottom: 40px;
+            opacity: 1;
+        }
+     }
+}

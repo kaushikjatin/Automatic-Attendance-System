@@ -1,0 +1,68 @@
+{
+  "name": "fr-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://192.168.1.8:8000",
+  "dependencies": {
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "caniuse-lite": "^1.0.30001197",
+    "d3": "^6.6.0",
+    "react": "^17.0.1",
+    "react-avatar-edit": "^1.0.0",
+    "react-bootstrap": "^1.5.1",
+    "react-calendar": "^3.4.0",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^17.0.1",
+    "react-google-charts": "^3.0.15",
+    "react-icons": "^4.2.0",
+    "react-pro-sidebar": "^0.6.0",
+    "react-redux": "^7.2.2",
+    "react-redux-form": "^1.16.14",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "react-webcam": "^5.2.4",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-storage": "^4.1.2",
+    "redux-storage-engine-localstorage": "^1.1.4",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "styled-components": "^5.3.0",
+    "vanilla-tilt": "^1.7.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "HTTPS=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
